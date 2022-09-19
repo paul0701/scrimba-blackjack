@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.bj-table {
+    position: relative;
+    display: block;
+    background-image: url('https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=');
+    background-size: cover;
+    width: 60vw;
+    height: 80vh;
+    margin: 10vh auto;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.bj-table h1 {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.start {
+    display: block;
+    margin: 1vh auto;
+    width: 10vw;
+    height: 5vh;
+    border-radius: .5vw;
+    border: none;
+    background-color: goldenrod;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #016f32;
+    cursor: pointer;
+}
+
+.deal {
+    position: absolute;
+    top: 5vh;
+    right: 15vw;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    border: none;
+    background-color: goldenrod;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #016f32;
+    cursor: pointer;
+}
